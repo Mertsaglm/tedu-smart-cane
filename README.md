@@ -24,13 +24,12 @@ The proposed project investigates a detachable white-cane attachment for obstacl
 The site is plain HTML, CSS and JavaScript, served by GitHub Pages from the `docs` directory on the `main` branch. It has no build step or external dependencies.
 
 - Main page: `docs/index.html`
-- Initial backlog: `docs/backlog.html`
 - Appearance: `docs/styles.css`
 - Public reports: `docs/reports/`
 - Original concept drawing: `docs/assets/cane-concept.svg`
 
 To preview, run `python3 -m http.server 8765 --directory docs`, then visit http://localhost:8765.
 
-Add future reports to `docs/reports/` and update the document links, project progress and date in `docs/index.html`. Update `docs/backlog.html` as tasks change. Preserve dated backlog versions in `docs/reports/`. Keep claims consistent with completed work. Student identifiers and private working material should stay out of this public repository.
+Add future reports to `docs/reports/` and update the document links, project progress and date in `docs/index.html`. Keep claims consistent with completed work. Student identifiers and private working material should stay out of this public repository.
 
 The website uses semantic headings, keyboard focus states, a skip link, meaningful link labels and responsive layouts. All fonts and assets are served locally.
