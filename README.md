@@ -17,7 +17,7 @@ Supervisor: Mehmet Evren Coşkun. Jury: Ayşenur Birtürk and Eren Ulu.
 
 ## Scope
 
-The proposed project investigates a detachable white-cane attachment for upper-body obstacle awareness. Hardware, feedback and performance targets will be refined during requirements analysis and testing. The website illustrates a concept, not a tested product.
+The proposed project investigates a detachable white-cane attachment for obstacle awareness. Hardware, feedback and performance targets will be refined during requirements analysis and testing. The website illustrates a concept, not a tested product.
 
 ## Website maintenance
 
