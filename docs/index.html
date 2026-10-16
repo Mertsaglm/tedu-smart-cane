@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Smart Cane Attachment | TED University · Group 18</title>
+ <meta name="description" content="CMPE 491 Group 18 at TED University. A proposed detachable white-cane attachment for upper-body obstacle awareness. Project proposal, literature review, team and development milestones.">
+ <meta name="theme-color" content="#183b3c">
+ <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="header"><div class="nav-wrap">
+ <a class="brand" href="#home" aria-label="Smart Cane project home"><span class="brand-mark" aria-hidden="true">18</span><span>Smart Cane<span class="brand-small">TED UNIVERSITY · CMPE 491</span></span></a>
+ <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu <span aria-hidden="true">☰</span></button>
+ <nav id="nav" aria-label="Main navigation"><a href="#project">Project</a><a href="#approach">Approach</a><a href="#documents">Documents</a><a href="#team">Team</a><a href="#progress">Progress</a></nav>
+</div></header>
+<main id="main">
+<section class="hero wrap" id="home" aria-labelledby="hero-title">
+ <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> SENIOR DESIGN PROJECT · FALL 2026</p>
+ <h1 id="hero-title">Awareness beyond<br>the cane’s reach.</h1>
+ <p class="lead">A detachable white-cane attachment for noticing obstacles at chest and head height.</p>
+ <p class="hero-detail">We are exploring how proximity sensing and understandable feedback can support the familiar way people use a white cane.</p>
+ <div class="actions"><a class="button primary" href="reports/CMPE491_Group18_ProjectProposal.pdf">Read the proposal <span aria-hidden="true">↗</span></a><a class="text-link" href="#approach">Explore the concept <span aria-hidden="true">↓</span></a></div>
+ <div class="hero-meta"><span>GROUP <strong>18</strong></span><span>STAGE <strong>Proposal &amp; initial review</strong></span></div>
+ </div>
+ <figure class="hero-figure"><img src="assets/cane-concept.svg" width="600" height="600" alt="Concept drawing of a module clipped below a white cane’s grip, with proximity sensing directed toward a hanging obstacle."><figcaption><span>PROPOSED CONCEPT</span> Illustrative geometry. Final hardware will follow testing.</figcaption></figure>
+</section>
+<section class="project-section" id="project" aria-labelledby="project-title"><div class="wrap split">
+ <div><p class="eyebrow">01 / THE PROJECT</p><h2 id="project-title">A focused response<br>to a real need.</h2></div>
+ <div class="project-body"><p class="formal-title">Design and Development of a Smart Cane Attachment with Obstacle Detection and User Alerting for Visually Impaired Individuals</p>
+ <p>During an initial visit to an association for people with visual impairments, our team heard that upper-body obstacles were a recurring difficulty. Protruding signs and tree branches are examples of the situations that motivate this project.</p>
+ <p>Our proposal is a compact module attached to an existing white cane. It will estimate obstacle proximity and communicate alerts through vibration and/or sound. The final sensing and feedback choices will be guided by experiments and user feedback.</p>
+ <p class="note">The attachment is intended to complement the cane’s established ground-contact function.</p>
+ </div>
+</div></section>
+<section class="wrap section" id="approach" aria-labelledby="approach-title">
+ <div class="section-top"><div><p class="eyebrow">02 / PROPOSED APPROACH</p><h2 id="approach-title">Sense. Interpret. Inform.</h2></div><p class="section-summary">A small device with a clear engineering question: can accounting for cane movement reduce unnecessary alerts while preserving timely warnings?</p></div>
+ <div class="process" role="list">
+  <article role="listitem"><span class="step">01</span><h3>Sense proximity</h3><p>Compare ultrasonic and time-of-flight sensing for upper-body obstacles in defined indoor and outdoor conditions.</p><span class="tag">Candidate technologies</span></article>
+  <article role="listitem"><span class="step">02</span><h3>Account for movement</h3><p>Investigate inertial measurements and filtering as the cane changes orientation during a sweeping motion.</p><span class="tag">Algorithm investigation</span></article>
+  <article role="listitem"><span class="step">03</span><h3>Give clear feedback</h3><p>Evaluate vibration and audible cues, including a more noticeable alert as an obstacle becomes closer.</p><span class="tag">User-informed interaction</span></article>
+ </div>
+ <div class="evaluation"><div><h3>What we will measure</h3><p>Detection and missed obstacles · False alerts · Response time · Added weight · Battery use · Mount stability</p></div><div><h3>Scope under exploration</h3><p>Object-type recognition and stair or drop-off detection are possible extensions. The first prototype prioritises upper-body obstacle awareness.</p></div></div>
+</section>
+<section class="documents-section" id="documents" aria-labelledby="documents-title"><div class="wrap">
+ <div class="section-top"><div><p class="eyebrow">03 / PROJECT DOCUMENTS</p><h2 id="documents-title">The work, documented.</h2></div><p class="section-summary">Reports and dated planning records, collected in one place for the project’s supervisor and jury.</p></div>
+ <a class="document featured" href="reports/CMPE491_Group18_ProjectProposal.pdf"><span class="file-type">PDF</span><span class="doc-name"><strong>Project Proposal</strong><span>Project description, team information and initial literature review · 2 pages</span></span><span class="doc-date">16 OCT 2026</span><span class="doc-arrow" aria-hidden="true">↗</span></a>
+ <a class="document" href="backlog.html"><span class="file-type">WEB</span><span class="doc-name"><strong>Initial project backlog</strong><span>Proposed next steps and planning status · version 0.1</span></span><span class="doc-date">16 OCT 2026</span><span class="doc-arrow" aria-hidden="true">↗</span></a>
+ <div class="future-docs"><span>Next scheduled reports</span><p>Project Specifications <strong>23 Oct</strong></p><p>Analysis Report <strong>20 Nov</strong></p><p>High-Level Design <strong>31 Dec</strong></p></div>
+</div></section>
+<section class="wrap section" id="team" aria-labelledby="team-title">
+ <div class="section-top"><div><p class="eyebrow">04 / THE PEOPLE</p><h2 id="team-title">Group 18.</h2></div><p class="section-summary">Four students at TED University, working across sensing, embedded software, interaction and evaluation.</p></div>
+ <div class="team-grid">
+  <article><span class="initials" aria-hidden="true">ZY</span><h3>Zeynep Ece Yılmaz</h3><p>Project team</p><a href="mailto:zeynepece.yilmaz@tedu.edu.tr">zeynepece.yilmaz@tedu.edu.tr</a></article>
+  <article><span class="initials" aria-hidden="true">TB</span><h3>Tugin Buğra Bilgiç</h3><p>Project team</p><a href="mailto:tuginbugra.bilgic@tedu.edu.tr">tuginbugra.bilgic@tedu.edu.tr</a></article>
+  <article><span class="initials" aria-hidden="true">MS</span><h3>Mert Sağlam</h3><p>Project team</p><a href="mailto:mert.saglam@tedu.edu.tr">mert.saglam@tedu.edu.tr</a></article>
+  <article><span class="initials" aria-hidden="true">OG</span><h3>Onat Genelioğlu</h3><p>Project team</p><a href="mailto:onat.genelioglu@tedu.edu.tr">onat.genelioglu@tedu.edu.tr</a></article>
+ </div>
+ <div class="faculty"><div><p class="eyebrow">SUPERVISOR</p><a href="https://www.tedu.edu.tr/mehmet-evren-coskun">Mehmet Evren Coşkun <span aria-hidden="true">↗</span></a></div><div><p class="eyebrow">JURY MEMBER</p><a href="https://www.tedu.edu.tr/aysenur-birturk">Ayşenur Birtürk <span aria-hidden="true">↗</span></a></div><div><p class="eyebrow">JURY MEMBER</p><a href="https://www.tedu.edu.tr/eren-ulu">Eren Ulu <span aria-hidden="true">↗</span></a></div></div>
+</section>
+<section class="progress-section" id="progress" aria-labelledby="progress-title"><div class="wrap split">
+ <div><p class="eyebrow">05 / DEVELOPMENT PLAN</p><h2 id="progress-title">From proposal<br>to prototype.</h2><p class="section-summary">CMPE 491 establishes requirements and design. Implementation and evaluation continue in CMPE 492.</p><p class="small">Dates follow the Fall 2026 course syllabus. Presentation dates remain to be announced.</p></div>
+ <ol class="timeline">
+  <li class="current"><time datetime="2026-10-16">16 OCT 2026</time><h3>Project proposal</h3><p>Project scope and initial literature review prepared.</p><span class="status">Prepared</span></li>
+  <li><time datetime="2026-10-23">23 OCT 2026</time><h3>Specifications &amp; backlog</h3><p>Refine requirements, constraints, ethical considerations and the work plan.</p><span class="status planned">Planned</span></li>
+  <li><time datetime="2026-11-20">20 NOV 2026</time><h3>Analysis report</h3><p>Analyse system behaviour and evaluation scenarios; update the backlog.</p><span class="status planned">Planned</span></li>
+  <li><time datetime="2026-12-31">31 DEC 2026</time><h3>High-level design</h3><p>Document architecture and subsystem interfaces; update the backlog.</p><span class="status planned">Planned</span></li>
+ </ol>
+</div></section>
+<section class="wrap section references" aria-labelledby="references-title">
+ <div class="section-top"><div><p class="eyebrow">06 / INITIAL READING</p><h2 id="references-title">Building on existing work.</h2></div><p class="section-summary">Commercial systems and research prototypes inform our scope. The proposal includes the initial literature review.</p></div>
+ <div class="reference-grid">
+  <a href="https://wewalk.io/en/"><span>01 · SMART CANE</span><h3>WeWALK <span aria-hidden="true">↗</span></h3><p>Upper-body obstacle detection and connected navigation.</p></a>
+  <a href="https://www.gosense.com/wp-content/uploads/2022/01/Rango-Product-Sheet.pdf"><span>02 · FRANCE</span><h3>GoSense Rango <span aria-hidden="true">↗</span></h3><p>A detachable module with spatial audio feedback.</p></a>
+  <a href="https://smartcane.saksham.org/?page_id=8"><span>03 · INDIA</span><h3>SmartCane <span aria-hidden="true">↗</span></h3><p>Ultrasonic sensing and distance-based vibration patterns.</p></a>
+  <a href="https://www.glidance.io/product"><span>04 · UNITED STATES</span><h3>Glidance Glide <span aria-hidden="true">↗</span></h3><p>A wheeled aid designed to provide physical guidance.</p></a>
+  <a href="https://engineering.stanford.edu/news/team-researchers-build-400-self-navigating-smart-cane"><span>05 · RESEARCH / 2021</span><h3>Stanford Augmented Cane <span aria-hidden="true">↗</span></h3><p>Robotic sensing and steering in an augmented cane.</p></a>
+  <a href="https://doi.org/10.3390/s24030870"><span>06 · RESEARCH / CHINA / 2024</span><h3>Mai et al. <span aria-hidden="true">↗</span></h3><p>LiDAR and RGB-D sensing for navigation and obstacle recognition.</p></a>
+ </div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><p><strong>Smart Cane Attachment</strong><br>TED University · CMPE 491 · Group 18</p><p>Updated 16 October 2026<br><a href="https://github.com/Mertsaglm/tedu-smart-cane">Project repository ↗</a></p><a href="#home">Back to top ↑</a></div></footer>
+<script src="app.js"></script>
+</body></html>

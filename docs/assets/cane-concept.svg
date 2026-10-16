@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">Concept of a detachable upper-body obstacle sensing module on a white cane</title>
+<desc id="desc">An illustrative module clips below the cane grip. A green fan indicates the proposed sensing direction toward a hanging obstacle. A separate shaft continues to the ground. Geometry and components are conceptual.</desc>
+<defs>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#d4dedb" stroke-width=".65"/></pattern>
+ <linearGradient id="shaft" x1="0" x2="1"><stop stop-color="#bdc9c7"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#bac7c5"/></linearGradient>
+ <linearGradient id="case" x1="0" x2="1"><stop stop-color="#e1e7e3"/><stop offset=".5" stop-color="#fdfefb"/><stop offset="1" stop-color="#c9d3ce"/></linearGradient>
+ <linearGradient id="beam" x1="0" x2="1"><stop stop-color="#2e796b" stop-opacity=".26"/><stop offset="1" stop-color="#2e796b" stop-opacity=".035"/></linearGradient>
+ <linearGradient id="grip" x1="0" x2="1"><stop stop-color="#172b30"/><stop offset=".6" stop-color="#385055"/><stop offset="1" stop-color="#15292e"/></linearGradient>
+</defs>
+<rect x="16" y="16" width="568" height="568" rx="20" fill="#edf1e9"/>
+<rect x="16" y="16" width="568" height="568" rx="20" fill="url(#grid)"/>
+<circle cx="291" cy="293" r="209" fill="none" stroke="#b9c8c1" stroke-dasharray="3 7"/>
+<circle cx="291" cy="293" r="151" fill="none" stroke="#cad5cf"/>
+<path d="M284 285L511 104L547 350Z" fill="url(#beam)"/>
+<path d="M284 285L511 104M284 285L547 350" stroke="#4b8f7c" stroke-dasharray="5 6" fill="none"/>
+<path d="M367 219Q394 269 379 309M416 179Q459 260 437 326M467 139Q528 249 494 340" stroke="#4b8f7c" opacity=".5" fill="none"/>
+<g transform="rotate(22 275 280)">
+ <path d="M253 108C206 105 216 153 236 180" fill="none" stroke="#304649" stroke-width="6"/>
+ <rect x="260" y="113" width="22" height="420" rx="10" fill="url(#shaft)" stroke="#a8b7b1"/>
+ <path d="M260 436h22v48h-22z" fill="#b14d3d"/>
+ <rect x="252" y="69" width="38" height="139" rx="17" fill="url(#grip)"/>
+ <g stroke="#526465" stroke-width="1.5"><path d="M259 101h24M259 112h24M259 123h24M259 134h24M259 145h24M259 156h24M259 167h24M259 178h24"/></g>
+ <rect x="253" y="230" width="49" height="15" rx="5" fill="#2c4246"/>
+ <rect x="253" y="299" width="49" height="15" rx="5" fill="#2c4246"/>
+ <rect x="281" y="218" width="49" height="112" rx="18" fill="url(#case)" stroke="#83968d" stroke-width="1.5"/>
+ <circle cx="306" cy="240" r="7" fill="#1c5148"/>
+ <path d="M306 235v5M302 238a5 5 0 1 0 8 0" fill="none" stroke="#d5eee4" stroke-width="1.3"/>
+ <circle cx="306" cy="279" r="15" fill="#273c40"/>
+ <circle cx="306" cy="279" r="10" fill="#4b6466" stroke="#879c94"/>
+ <circle cx="306" cy="279" r="5" fill="#233d40"/>
+ <rect x="299" y="309" width="14" height="4" rx="2" fill="#338575"/>
+ <ellipse cx="271" cy="533" rx="15" ry="9" fill="#273e43"/>
+</g>
+<g stroke="#8b9f96" stroke-width="1.5" fill="none"><path d="M465 69v60"/><rect x="433" y="125" width="75" height="33" rx="3"/><path d="M447 139h45M447 146h28"/></g>
+<g font-family="Arial,sans-serif" fill="#243d41">
+ <text x="47" y="56" font-size="11" letter-spacing="2">SYSTEM CONCEPT / 01</text>
+ <path d="M245 245L151 212H49" stroke="#6f877e" fill="none"/>
+ <circle cx="245" cy="245" r="3" fill="#287767"/>
+ <text x="49" y="196" font-size="13" font-weight="bold">Detachable mount</text>
+ <path d="M310 282L382 389H514" stroke="#6f877e" fill="none"/>
+ <circle cx="310" cy="282" r="3" fill="#287767"/>
+ <text x="380" y="412" font-size="13" font-weight="bold">Proximity sensing</text>
+ <text x="380" y="431" font-size="11" fill="#536b61">Components under evaluation</text>
+ <text x="47" y="550" font-size="11" fill="#536b61">Illustration of the proposed attachment</text>
+</g>
+</svg>
